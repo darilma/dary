@@ -1,0 +1,22 @@
+<script type="text/javascript">
+	var voto,contadm=0,contcomercio=0
+
+	for (var i = 1; i <=10; i++) {
+		 voto = Number(prompt("digite seu voto 1-ADM e 2-ADM em comercio"));
+		 if (voto == 1) {
+		 	contadm++;
+		 }
+		 if (voto == 2) {
+		 	contcomercio++;
+		 }
+		}
+		 if (contadm > contcomercio) {
+		 	document.write("curso escolhido 1-ADM");
+		 	document.write("<br> total de votos " + contadm);
+		 
+		 }else if ( contcomercio > contadm) {
+		 		document.write("o curso escolhido foi 2-ADM em comercio");
+		 	document.write("<br> total de votos " + contcomercio);
+		 }
+	
+</script>
