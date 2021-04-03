@@ -1,0 +1,40 @@
+
+div{
+	margin: 0 auto;
+	font-size: 80%;
+	padding: 10px;
+	width: 1000px;
+}
+
+p{
+	text-align: justify;
+	margin: 0 0 20 0px;
+}
+.lin{
+	font-weight: bold;
+}
+img{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+hr {
+	width: 1000%;
+	margin: 0 auto 0 0; 
+}
+table{
+	border:  1px solid black;
+	margin: 0 0 20px 0;
+}
+td{
+	border:  1px solid black;
+}
+tr{
+	border:  1px solid black;
+}
+th{
+	border:  1px solid black;
+}
+footer{
+	margin: 20px 0 0 0;
+}
