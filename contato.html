@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<title>Projeto</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link href="estilo.css" rel="stylesheet" type="text/css"> 
+	<link href="https://fonts.googleapis.com/css?family=Rouge+Script" rel="stylesheet">
+	
+</head>
+<body onload="slide1()">
+	<div id="corpo">
+		<header id="cabecalho">
+			<a href="index.html"><img src="img/logo.png" id="logo"></a>
+			<div id="social">
+				<img src="img/insta.png" class="redeicone">	
+				<img src="img/face.png" class="redeicone">	
+				<img src="img/youtube.png" class="redeicone">	
+			</div>
+			<nav id="menu">
+				<a href="index.html">Incio</a>
+				<a href="contato.html">Contato</a>
+				<a href="produtos.html">Produtos</a>
+				<a href="tiposdecabelo.html">Tipos de Cabelo</a>	
+				<a href="#">Modelos</a>
+			</nav>
+		</header>
+
+		<section id="principal">
+			<script src = "slide.js"></script>
+
+			<div id="main">
+				<img src="banner1.png" alt= "slide show" id="baner" class="banner slide">
+			</div> 
+			
+			<h3><marquee>Seja bem vindo(a) ao nosso espaço aqui também é sua casa</marquee></h3>
+
+			<div class="texto" id="texo2">
+				<div id="formulario">
+					<form action="#" method="GET">
+
+						<h3>Deixe  sua mensagem</h3>
+						<label for="nome" class="let" id="nn"> Nome *</label>
+						<input type="text" name="nome" class="campo" id="nome">
+
+						<label for="telefone" class="let" id="tel">Telefone *</label>
+						<input type="text" name="telefone" class="campo" id="telefone">
+
+						<label for="telefone" class="let" id="zap">WhatsApp *</label>
+						<input type="text" name="telefone" class="campo" id="whats">
+
+						<label for="data" class="let" id="do">Data do Orcamento *</label>
+						<input type="date" name="dataNasc" class="campo" id="dataO">
+
+						<label for="obs" class="let" id="msg">Mensagem</label>
+						<textarea name="obs" id="obs"></textarea>
+
+						<br>
+						<input type="button" value="Verificar" id="botao" onclick="verifica();">
+
+						<p>Sempre deixa os detalhes na mensagem!</p>
+					</form>
+				</div>
+			</div>
+
+			<div class="texto" id="texo2">
+				<h3>Leia-me</h3>
+				<img src="img/info.png" class="divtexto ft">
+				<p>Cada pessoa se liga ao seu cabelo de diferentes formas: Pintado, Cortado, Fazendo tranças, Com mega hair, alisado entre outras formas, e é isso que as faz sentirem-se bonitas. Só pelo facto de ter decidido parar com a química e ter entrado na transição já é um grande passo, porém é o seu estilo, suas escolhas, sinta-se livre de fazer o que quiser com o seu cabelo. O que conta é a sua beleza interior se você estiver bem consigo mesma, por fora você vai transmitir essa confiança.Depois de cada abraço, cada beijo, cada dança, cada música.
+				</div>
+
+
+			</section>
+
+			<footer id="pe">
+				<p id="rodaape">@2021 @Dary Todos os direitos reservado </p>
+			</footer>
+
+		</body>
+		</html>

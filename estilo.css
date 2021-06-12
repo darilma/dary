@@ -1,0 +1,255 @@
+body{
+	background-image: url('img/fundo.jpg');
+	background-size: 100%;
+}
+
+#corpo{
+	width: 1100px;
+	margin: 0 auto;	
+}
+
+#cabecalho{
+	width: 1100px;
+	height: 100px;
+}
+
+#logo{
+	width: 250px;
+	height: 150px;
+	float: left;	
+	box-shadow:  0px 0px 5px black;
+}
+
+#social{
+	
+	height: 150px;
+	width: 850px;
+	float: left;
+	margin-top: 10px;
+}
+
+.redeicone{
+	width: 50px;
+	height: 50px;
+	float: right;
+	margin: 5px;
+}
+
+#menu{
+	
+	display: block;
+	float: left;
+	width: 650px;
+	height: 40px;
+	margin-left: 450px;	
+	border-radius: 5px;		
+}
+
+#menu a{
+
+	display: block;
+	float: left;
+	padding-left: 15px;
+	font-size: 19px;
+	font-family: verdana;
+	text-decoration: none;
+	color: white;
+	margin-top: 5px;
+	text-shadow:  2px 2px 2px black;
+	font-weight: bold;
+}
+
+#menu a:hover{
+	background-color: #dda520;
+	border-top-right-radius: 15px;
+	border-bottom-left-radius: 10px;
+	border-right: 4px solid yellow;
+	padding-right: 56px;
+	text-shadow: 1px 1px black;
+}
+
+.banner{
+	width: 100%;
+	height: 400px;
+	border: 2px solid white;
+	border-radius: 5px;
+}
+
+marquee{
+	font-family: "Rouge Script";
+	font-size: 80px;
+}
+
+.divtexto{
+	width: 200px;
+	height: 200px;
+}
+
+.ft{
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+	
+}
+
+.texto{
+	float: left;
+	width: 50%;
+	margin-top: 10px;
+	box-shadow:  0px 0px 5px black;
+}
+
+h3{
+	text-align: center;
+	font-size: 35px;
+	font-family: verdana;
+	text-decoration: none;
+	font-weight: bold;
+	text-shadow: 2px 1px 2px white;
+
+}
+
+p{
+	padding-left: 10px;
+	padding-right: 10px;
+	text-align: justify;
+	font-family: verdana;
+	font-size: 15px;
+	font-weight: bold;
+	text-shadow: 1px 0px 1px black;
+	color: black;
+
+}
+
+#pe{
+	float: left;
+	width: 100%;
+	height: 50px;
+	margin-top: 10px;
+}
+
+#rodaape{
+	text-align: center;
+	font-family: verdana;
+	font-size: 20px;
+	text-decoration: none;
+	color: gray;
+	margin-top: 5px;	
+	text-shadow: 1px 1px 1px black;
+}
+
+.let{
+	padding: 4px;
+	font-family: verdana;
+	font-size: 20px;
+	text-decoration: none;
+	margin-top: 5px;	
+}
+
+#nn{
+	margin-right: 370px;
+}
+
+.campo{
+	padding: 10px;
+	width: 450px;
+}
+
+#do{
+	margin-left: 21px;
+}
+
+#obs{
+	margin-top: 10px;
+	width: 350px;
+}
+
+#botao{
+	margin-top: 10px;
+	margin-left: 415px;
+}
+
+.creme{
+	width: 50%;
+	height: 650px;
+	box-shadow:  0px 0px 5px black;
+	border-radius: 5px;
+	float: left;
+}
+
+.videos{
+	width: 100%;
+	height: 600px;
+	margin-top: 10px;
+	box-shadow:  5px 5px 5px black;
+}
+
+.creme p{
+	float: left;
+}
+
+.prod{
+	width: 350px;
+	height: 300px;
+	padding: 10px;
+}
+
+#table{
+	width: 100%;
+	height: 400px;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	box-shadow: 1px 1px 1px 1px black;
+}
+
+.tabela{
+	width: 150px;
+	height: 200px;
+	float: left;
+	border: 10px;
+	padding-left: 20px;
+	padding-top: 5px;
+	box-shadow: 5px 5px 5px 5px black;
+}
+
+caption{
+	font-family: verdana;
+	font-size: 25px;
+	font-weight: bold;
+	text-align: center;
+}
+.tabe{
+	width: 80px;
+	height: 250px;
+	margin: auto 10px auto auto;
+}
+
+.fto{
+	width: 250px;
+	height: 200px;
+	float: left;
+	margin-top: 5px;
+	margin: 1px 5px 5px 5px;
+	box-shadow: 5px 5px 5px black;
+
+}
+h1{
+	font-family: system-ui;
+	background: #dda520;
+	color: white;
+	text-align: center;
+	font-size: 40px;
+	text-shadow: 1px 1px 1px black;
+
+}
+
+#foto{
+	padding-left: 25px;
+}
+
+#foto img:hover{
+	height: 50%;
+	width: 50%;
+}
